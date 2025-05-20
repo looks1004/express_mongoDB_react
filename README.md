@@ -105,3 +105,31 @@ yarn start 로 구동 ..
   
   ============================================================
 
+
+
+===25.05.25
+1. 탐색기에 새로운 폴더 생성
+2. cmd 열어서 위 폴더에서 git --version 으로 확인
+3. cmd ....  git clone github 주소 입력
+4. cmd .... 해당 디렉토리로 이동
+5. 탐색기에서 원하는 소스를 해당 디렉토리에 복사한다 readme 파일은 덮어쓰기 한다
+
+git config user.email "hp7984@naver.com"
+git config user.name "김호용"
+git init
+
+6. cmd 에서 git add .
+7. cmd 에서 git status 로 origin/main 인지 확인하고 변경된 빨간색 파일목록을 확인한다
+
+8. cmd 에서 git commit -m "2nd_25.05.20. express_other file"
+9. git push origin main
+
+
+
+==============
+git bash를 이용하여 github에 유니티 프로젝트를 올리는 중 에러 메세지가 발생하였다.
+error: failed to push some refs to 
+
+로컬 브랜치에서 "git pull" 명령어를 실행하여 원격 브랜치를 업데이트 한다.
+
+그 다음, "git push" 명령어를 다시 실행하면 문제가 해결된다.
